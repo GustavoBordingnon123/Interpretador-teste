@@ -1,8 +1,9 @@
+// Developed by: Gustavo Bordignon, Cauã de França Brito, Carlos Eduardo Scorsoni Dias
 grammar syntax;
 
 // Parser
 
-equation : expr_list EOF;
+interpreter : expr_list EOF;
 
 expr_list : expr +;
 
