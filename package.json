@@ -2,7 +2,6 @@
   "name": "ci-calc-antlr-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "execute.ts",
   "module": "node",
   "scripts": {
     "antlr4ts": "antlr4ts -visitor -o ./generated syntax.g4",
